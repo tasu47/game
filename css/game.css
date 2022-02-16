@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-page {
+  display: flex;
+  gap: 20px;
+}
+.main {
+  height: 369px;
+  width: 200px;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.main p {
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main img {
+  height: 189px;
+  width: 150px;
+  overflow: hidden;
+  background-color: aqua;
+  padding: 10px;
+}
+.under p {
+  background-color: blue;
+  height: 12px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: aliceblue;
+  font-weight: 600;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app .user img,
+.array img {
+  height: 170px;
+  width: 170px;
+}
+.main-page .app {
+  background-color: rgb(20, 20, 100);
+  display: flex;
+  padding: 20px;
+  height: 60%;
+  margin: 30px;
+  border-radius: 10px;
+}
+.main-page .app .user h1 {
+  margin-top: 10px;
+}
+.main-page .app .user {
+  align-items: center;
+  text-align: center;
+}
+.main-page .app .user h1,
+h2 {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-page .app .array img {
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .main-page {
+    display: block;
+  }
+  .main-page .app {
+    display: block;
+    width: 40%;
+  }
+}
